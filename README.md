@@ -32,7 +32,7 @@ But you may not be interested in my approach, so here are some nice options I fo
 - [https://www.rainmeter.net/] A classic in this space. May either look at their project for inspiration or integration - hopefully making it easy for their community to try out this project without losing what they've already invested into Rainmeter.
 - [https://www.stardock.com/products/start10/] Literally the only thing making Windows 10 usable to my mind. It's what I currently use. I am happy with it, I'm just picky and like finer grained control.
 
-You may notice that I didn't include anything for OSX, Linux, BSD, Android, iOS, etc. I have used all of those on personal devices (except iOS and BSD, will have to figure those out), but I have admittedly less experience research what options are available in that space - **especially Linux**, where I know there's plenty of options but I usually use it via the command line 99% of the time.
+You may notice that I didn't include anything for OSX, Linux, BSD, Android, iOS, etc. I have used all of those on personal devices (except iOS and BSD, will have to figure those out), but I have admittedly less experience researching what options are available in that space - **especially Linux**, where I know there's plenty of options but I usually use it via the command line 99% of the time.
 
 ## High Level Design and Roadmap
 
@@ -43,7 +43,7 @@ As alluded to earlier, I plan on using Rust for this project. It's one of the re
 - **Ease of Use:** Back in my baby programmer days (read: early 20s) I make an abortive attempt at this idea. I tabled it because I felt it was above my skill level at the time. I want it to be just as easy for non-technical enthusiasts to pick up as for programmers to dive in and add functionality to fits their needs.
 - **Community Driven:** I'm hoping to build a nice, cozy community of users that contribute themes, code, and generally cheer each other on.
 - **Empowers Users:** Even if for my own paranoid privacy obsessed purposes, I want this program to help users shut off OS tracking that they don't want. Just as an example, the best current option to turn off Windows 10 telemetry is a Powershell script hosted as a gist. That's not even ideal for the average programmer, much less the average user.
-- **Purposefully Open Ended:** I couldn't come up with a better term than open ended, but here's what I mean. I suspect that the Rust win32 crate, or maybe some other crate we'll end up using, may be early in it's maturity. If I end up using Stream time to contribute back to these crates to meet the project needs, that seems reasonable to me.
+- **Purposefully Open Ended:** I couldn't come up with a better term than open ended, but here's what I mean. I suspect that the Rust win32 crate, or maybe some other crate we'll end up using, may be early in it's maturity. If I end up using Stream time to contribute back to these crates to meet the project needs, that seems reasonable to me. Also, if it makes sense to dive into something conceptually on a stream or two - that may also be useful.
 - **Website:** I'm planning on building a website to faciliate theme sharing, ease of binary downloads, etc. But it's definitely not the first priority.
 
 ## Scheduling
